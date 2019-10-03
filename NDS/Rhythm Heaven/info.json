@@ -1,0 +1,62 @@
+{
+  "name" : "Rhythm Heaven Edge-To-Edge 1.0",
+  "identifier" : "com.sudorm.tengokugold",
+  "gameTypeIdentifier" : "com.rileytestut.delta.game.ds",
+  "debug" : false,
+  "representations" : {
+    "iphone" : {
+      "edgeToEdge" : {
+        "portrait" : {
+          "assets" : {
+            "resizable" : "iphone_edgetoedge_portrait.pdf"
+          },
+          "items" : [
+            {
+              "inputs" : [
+                "menu"
+              ],
+              "frame" : {
+                "x" : 8,
+                "y" : 658,
+                "width" : 21,
+                "height" : 21
+              },
+              "extendedEdges" : {
+                "bottom" : 14,
+                "left" : 8
+              }
+            },
+            {
+              "inputs": {
+                "x": "touchScreenX",
+                "y": "touchScreenY"
+              },
+              "frame": {
+                "x": 0,
+                "y": 340,
+                "width": 320,
+                "height": 240
+              }
+            }
+          ],
+          "gameScreenFrame": {
+            "x": 0,
+            "y": 100,
+            "width": 320,
+            "height": 480
+          },
+          "mappingSize" : {
+            "width" : 320,
+            "height" : 693
+          },
+          "extendedEdges" : {
+            "top" : 7,
+            "bottom" : 7,
+            "left" : 7,
+            "right" : 7
+          }
+        },
+      }
+    }
+  }
+}
